@@ -8,16 +8,16 @@ const Booking = require('./models/Bookings');
 dotenv.config();
 
 const users = [
-    { name: 'Admin User', email: 'admin@eventmania.com', password: 'password123', role: 'admin' },
-    { name: 'Demo User', email: 'user@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Alice Smith', email: 'alice@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Bob Johnson', email: 'bob@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Charlie Dave', email: 'charlie@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Diana Prince', email: 'diana@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Ethan Hunt', email: 'ethan@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Fiona Gallagher', email: 'fiona@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'George Miller', email: 'george@eventmania.com', password: 'password123', role: 'user' },
-    { name: 'Hannah Montana', email: 'hannah@eventmania.com', password: 'password123', role: 'user' }
+    { name: 'Admin User', email: 'admin@gmail.com', password: 'password123', role: 'admin' },
+    { name: 'Demo User', email: 'user@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Alice Smith', email: 'alice@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Bob Johnson', email: 'bob@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Charlie Dave', email: 'charlie@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Diana Prince', email: 'diana@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Ethan Hunt', email: 'ethan@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Fiona Gallagher', email: 'fiona@gmail.com', password: 'password123', role: 'user' },
+    { name: 'George Miller', email: 'george@gmail.com', password: 'password123', role: 'user' },
+    { name: 'Hannah Montana', email: 'hannah@gmail.com', password: 'password123', role: 'user' }
 ];
 
 const events = [
@@ -165,8 +165,8 @@ const seedDatabase = async () => {
 
         console.log('\n🚀 Database seeded successfully!');
         console.log('-------------------------------------------');
-        console.log('Admin Email: admin@eventmania.com');
-        console.log('User Email:  user@eventmania.com');
+        console.log('Admin Email: admin@gmail.com');
+        console.log('User Email:  user@gmail.com');
         console.log('Password for all users: password123');
         console.log('-------------------------------------------\n');
 
